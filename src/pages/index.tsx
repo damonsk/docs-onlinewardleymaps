@@ -16,7 +16,7 @@ function HomepageHeader() {
           OnlineWardleyMaps.com
         </Heading>
         <p className="hero__subtitle" style={{ color: '#d7dae0' }}>
-          The open source platform for creating, sharing, and collaborating on Wardley Maps.
+          Open source tools, language, and plugins for creating, sharing, and collaborating on Wardley Maps.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -42,16 +42,11 @@ export default function Home(): JSX.Element {
         <section className="container margin-vert--lg">
           <div className="row">
             <div className="col col--8 col--offset-2">
-              <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', marginBottom: '2rem' }}>
-                <img src="/img/logo.svg" alt="OnlineWardleyMaps Logo" style={{ height: 100, width: 'auto' }} />
-                <img src="/img/owm-icon.png" alt="OnlineWardleyMaps Icon" style={{ height: 100, width: 'auto', borderRadius: 16 }} />
-                <img src="/img/rn-12-23-01.png" alt="Wardley Map Example" style={{ height: 100, width: 'auto', border: '1px solid #eee', background: '#fff', borderRadius: 8 }} />
-              </div>
               <h2>What is OnlineWardleyMaps.com?</h2>
               <p>
                 <strong>OnlineWardleyMaps.com</strong> is a free, open source set of tools and plugins for creating, editing, and sharing Wardley Maps—a powerful approach for strategic thinking and situational awareness.<br />
-                Created and maintained by <a href="https://www.linkedin.com/in/damonskelhorn/" target="_blank" rel="noopener noreferrer" className={styles.primaryLink}>Damon Skelhorn</a>.<br />
-                Wardley Mapping is an approach created by <a href="https://twitter.com/swardley" target="_blank" rel="noopener noreferrer" className={styles.secondaryLink}>Simon Wardley</a> and is used under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" className={styles.secondaryLink}>Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                Created and maintained by <a href="https://www.linkedin.com/in/skels/" target="_blank" rel="noopener noreferrer" className={styles.primaryLink}>Damon Skelhorn</a>.<br /><br />
+                Wardley Mapping is an approach created by <a href="https://x.com/swardley" target="_blank" rel="noopener noreferrer" className={styles.secondaryLink}>Simon Wardley</a> and is used under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" className={styles.secondaryLink}>Creative Commons Attribution-ShareAlike 4.0 International License</a>.
               </p>
               <h3>Why use it?</h3>
               <ul>

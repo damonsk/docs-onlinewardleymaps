@@ -82,39 +82,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'X',
-              href: 'https://x.com/mapsascode',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/damonsk/docs-onlinewardleymaps',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Damon Skelhorn.`,
     },
     prism: {
