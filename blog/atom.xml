@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.onlinewardleymaps.com/blog</id>
+    <title>Online Wardley Maps Blog</title>
+    <updated>2024-12-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.onlinewardleymaps.com/blog"/>
+    <subtitle>Online Wardley Maps Blog</subtitle>
+    <icon>https://docs.onlinewardleymaps.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wardley Maps for Obsidian.md]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note"/>
+        <updated>2024-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wardley Maps in Obsidian]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wardley-maps-in-obsidian">Wardley Maps in Obsidian<a href="https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note#wardley-maps-in-obsidian" class="hash-link" aria-label="Direct link to Wardley Maps in Obsidian" title="Direct link to Wardley Maps in Obsidian">​</a></h2>
+<p>I’m excited to announce a new project aimed at expanding access to Wardley mapping across even more tools, next up - <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">Obsidian.md</a>. For anyone who hasn't used it, Obsidian.md is a powerful, local-first note-taking tool loved by researchers, thinkers, and creators. Its flexibility and extendability make it a great home for Wardley maps—allowing you to visualise strategic landscapes directly within your notes.</p>
+<p>As always, it's open-source by default. This new open-source plugin brings the popular, open format (OnlineWardleyMaps or OWM) for Wardley maps right into Obsidian. With it, you can create and interact with maps as part of your markdown files, offering a new way to keep maps tightly integrated with your workflows. While it’s still in early stages and requires a manual installation, the goal is to publish it soon for easy access.</p>
+<p>Thanks for supporting this journey to make Wardley maps available in more tools. I hope this plugin inspires new ways of working with strategy and mapping in your daily notes!</p>
+<p><img decoding="async" loading="lazy" alt="Obsidian with Wardley Maps" src="https://docs.onlinewardleymaps.com/assets/images/Screenshot%202024-12-07%20at%2013.47.33-04e9b32fce5e696fe963bbe13a1c18ac.png" width="2600" height="1402" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="installation">Installation<a href="https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation">​</a></h2>
+<p>From within Obsidian.</p>
+<ol>
+<li>Open Obsidian Settings</li>
+<li>Navigate to "Community plugins" and click "Browse"</li>
+<li>Search for "Wardley Maps" and click Install</li>
+<li>Enable the plugin in Community plugins</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="Obsidian Settings" src="https://docs.onlinewardleymaps.com/assets/images/Screenshot%202024-12-07%20at%2013.50.37-e3856cca2960ff78a1ef54208a6895d5.png" width="2200" height="1198" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="license--source">License &amp; Source<a href="https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note#license--source" class="hash-link" aria-label="Direct link to License &amp; Source" title="Direct link to License &amp; Source">​</a></h2>
+<p>This project is licensed under the <a href="https://github.com/damonsk/obsidian-wardley-maps/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">AGPL-3.0 license</a> and the source code can be found at <a href="https://github.com/damonsk/obsidian-wardley-maps" target="_blank" rel="noopener noreferrer">github.com/damonsk/obsidian-wardley-maps</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="support-the-project">Support the Project<a href="https://docs.onlinewardleymaps.com/blog/2024-12-07-release-note#support-the-project" class="hash-link" aria-label="Direct link to Support the Project" title="Direct link to Support the Project">​</a></h2>
+<p>If you find <a href="https://github.com/damonsk/obsidian-wardley-maps" target="_blank" rel="noopener noreferrer">obsidian-wardley-maps</a>, <a href="https://github.com/damonsk/onlinewardleymaps" target="_blank" rel="noopener noreferrer">OnlineWardleyMaps</a> or <a href="https://github.com/damonsk/vscode-wardley-maps" target="_blank" rel="noopener noreferrer">vscode-wardley-maps</a> valuable, consider supporting its development:</p>
+<p><a href="https://www.patreon.com/mapsascode/overview" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Patreon" class="img_ev3q"></a></p>
+<p>Follow on X (Twitter) <a href="https://x.com/mapsascode" target="_blank" rel="noopener noreferrer">@MapsAsCode</a> for updates and announcements!</p>
+<p>Your support helps maintain and improve this plugin as well as OnlineWardleyMaps and vscode-wardley-maps. Every contribution is appreciated. Thank you for your support!</p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="release" term="release"/>
+        <category label="obsidian" term="obsidian"/>
+        <category label="plugin" term="plugin"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release - January 2024]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2024-01-01-release-note</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2024-01-01-release-note"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the January 2024 release of OnlineWardleyMaps.  Minor release to bring new features.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the January 2024 release of OnlineWardleyMaps.  Minor release to bring new features.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="accelerator--deaccelerator">Accelerator / Deaccelerator<a href="https://docs.onlinewardleymaps.com/blog/2024-01-01-release-note#accelerator--deaccelerator" class="hash-link" aria-label="Direct link to Accelerator / Deaccelerator" title="Direct link to Accelerator / Deaccelerator">​</a></h2>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">accelerator uniquename [0.1, 0.9]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Deaccelerator</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">deaccelerator someuniquename [0.1, 0.9]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="release" term="release"/>
+        <category label="onlinewardleymaps" term="onlinewardleymaps"/>
+        <category label="accelerator" term="accelerator"/>
+        <category label="deaccelerator" term="deaccelerator"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release - December 2023]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note"/>
+        <updated>2023-12-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the December release of OnlineWardleyMaps.  Major release to bring Quality of Life improvements and new features.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the December release of OnlineWardleyMaps.  Major release to bring Quality of Life improvements and new features.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pipelines-v2">Pipelines V2<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#pipelines-v2" class="hash-link" aria-label="Direct link to Pipelines V2" title="Direct link to Pipelines V2">​</a></h3>
+<p>We've revamped the pipeline components to enhance the positioning of choice components. This improvement introduces a new syntax, detailed below.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="key-highlights">Key Highlights:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#key-highlights" class="hash-link" aria-label="Direct link to Key Highlights:" title="Direct link to Key Highlights:">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="improved-positioning">Improved Positioning:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#improved-positioning" class="hash-link" aria-label="Direct link to Improved Positioning:" title="Direct link to Improved Positioning:">​</a></h5>
+<p>Experience enhanced placement of choice components within your pipelines for a more streamlined and intuitive workflow.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="new-syntax">New Syntax:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#new-syntax" class="hash-link" aria-label="Direct link to New Syntax:" title="Direct link to New Syntax:">​</a></h5>
+<p>Explore the updated syntax that accompanies this change, providing you with a more expressive and efficient way to define your pipeline components.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="backward-compatibility">Backward Compatibility:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#backward-compatibility" class="hash-link" aria-label="Direct link to Backward Compatibility:" title="Direct link to Backward Compatibility:">​</a></h5>
+<p>Fear not! Both the new and old syntax will be supported, ensuring a smooth transition for all users.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="legacy-syntax--view">Legacy syntax &amp; view<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#legacy-syntax--view" class="hash-link" aria-label="Direct link to Legacy syntax &amp; view" title="Direct link to Legacy syntax &amp; view">​</a></h4>
+<p>The old syntax created a view which positioned two components at the given maturity.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pipeline Kettle [0.1, 0.9]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><img decoding="async" loading="lazy" alt="Legacy Pipeline View" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-01-301d2802f50a26557987fb14e87098f7.png" width="986" height="346" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="version-2-syntax--view">Version 2 syntax &amp; view<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#version-2-syntax--view" class="hash-link" aria-label="Direct link to Version 2 syntax &amp; view" title="Direct link to Version 2 syntax &amp; view">​</a></h4>
+<p>New version allows nested components which only require their maturity to be specified as they will inherit visibility position from the parent pipeline.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">component Kettle [0.45, 0.57]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pipeline Kettle</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  component Campfire Kettle [0.50]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  component Electric Kettle [0.63]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><img decoding="async" loading="lazy" alt="Version 2 Pipeline View" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-02-664e3ea7425bf30e11470e469eefc571.png" width="668" height="304" class="img_ev3q"></p>
+<p><a href="https://beta.onlinewardleymaps.com/#clone:703Ni4Dth65U1mJBCf" target="_blank" rel="noopener noreferrer">View an example map which highlights the changes</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="annotate-value-chain-links">Annotate value chain links<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#annotate-value-chain-links" class="hash-link" aria-label="Direct link to Annotate value chain links" title="Direct link to Annotate value chain links">​</a></h3>
+<p>You can now specify additional context to links by using the optional operator.  This will allow you to highlight which links are "limited by", "constraint" or "feedback loop" without using notes.  Example below.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Hot Water-&gt;Kettle; limited by </span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><img decoding="async" loading="lazy" alt="Optional text" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-06-353ee1e24ea80d7f7ba97aebcf31b132.png" width="1086" height="430" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="evolve-name-changes">Evolve name changes<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#evolve-name-changes" class="hash-link" aria-label="Direct link to Evolve name changes" title="Direct link to Evolve name changes">​</a></h3>
+<p>It may be the case that the evolved component will need to represent something new.</p>
+<p>Like Physical Space to Virtual Space.</p>
+<p>You can now specify the new name of the evolved component using the syntax below.  Virtual Space will be the new component name.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">component Physical Space [0.91, 0.46]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">evolve Physical Space-&gt;Virtual Space 0.8</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><img decoding="async" loading="lazy" alt="Evolve name changes" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-05-1bb02bbf7efa8f854eade6b12426d567.png" width="850" height="326" class="img_ev3q"></p>
+<p><a href="https://onlinewardleymaps.com/#clone:evolve-name-change" target="_blank" rel="noopener noreferrer">View an example map which highlights the changes</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="map-iterations">Map Iterations<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#map-iterations" class="hash-link" aria-label="Direct link to Map Iterations" title="Direct link to Map Iterations">​</a></h3>
+<p>Iterations represent a significant evolution in the way you interact with your Wardley Maps. They allow you to capture the dynamic nature of your landscape over time, enabling a richer and more detailed representation of the evolution of your strategic elements.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="possible-uses">Possible uses:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#possible-uses" class="hash-link" aria-label="Direct link to Possible uses:" title="Direct link to Possible uses:">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="time-phased-evolution">Time-Phased Evolution:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#time-phased-evolution" class="hash-link" aria-label="Direct link to Time-Phased Evolution:" title="Direct link to Time-Phased Evolution:">​</a></h5>
+<p>With Iterations, you can now create snapshots of your Wardley Map at different points in time, capturing the evolution of components, relationships, and strategies.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="enhanced-strategic-planning">Enhanced Strategic Planning:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#enhanced-strategic-planning" class="hash-link" aria-label="Direct link to Enhanced Strategic Planning:" title="Direct link to Enhanced Strategic Planning:">​</a></h5>
+<p>Plan and visualize the future states of your landscape by creating iterations that depict the expected evolution of your components and their interdependencies.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="historical-insights">Historical Insights:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#historical-insights" class="hash-link" aria-label="Direct link to Historical Insights:" title="Direct link to Historical Insights:">​</a></h5>
+<p>Gain valuable insights into the historical development of your landscape by navigating through different iterations, allowing you to analyze trends, patterns, and the effectiveness of strategic decisions over time.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="improved-collaboration">Improved Collaboration:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#improved-collaboration" class="hash-link" aria-label="Direct link to Improved Collaboration:" title="Direct link to Improved Collaboration:">​</a></h5>
+<p>Collaborate seamlessly with your team by sharing and discussing specific iterations, fostering a shared understanding of the evolving landscape and supporting strategic decision-making.</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="effortless-mapping-updates">Effortless Mapping Updates:<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#effortless-mapping-updates" class="hash-link" aria-label="Direct link to Effortless Mapping Updates:" title="Direct link to Effortless Mapping Updates:">​</a></h5>
+<p>Easily update and modify your Wardley Map in each iteration, reflecting changes and adaptations as your landscape evolves.</p>
+<p>Iterations empower you to move beyond static representations, allowing you to embrace the dynamic nature of strategic planning. By incorporating time-phased evolution into your Wardley Maps, you can make informed decisions, adapt to change, and drive success in an ever-evolving landscape.</p>
+<p><img decoding="async" loading="lazy" alt="Wardley Map Iterations" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-09-0e1db2dcfacfc238e7d0811938dc1857.jpeg" width="1159" height="604" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quality-of-life-improvements">Quality of Life Improvements<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#quality-of-life-improvements" class="hash-link" aria-label="Direct link to Quality of Life Improvements" title="Direct link to Quality of Life Improvements">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="facelift--lightdark-themes">Facelift &amp; Light/Dark Themes<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#facelift--lightdark-themes" class="hash-link" aria-label="Direct link to Facelift &amp; Light/Dark Themes" title="Direct link to Facelift &amp; Light/Dark Themes">​</a></h3>
+<p>OWM has moved away from Bootstrap and now using MaterialUI.  With this change comes a more modern look and feel.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dark--light-modes">Dark / Light modes.<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#dark--light-modes" class="hash-link" aria-label="Direct link to Dark / Light modes." title="Direct link to Dark / Light modes.">​</a></h4>
+<p>By default, OWM will load using a dark theme, including the editor.  You can also take advantage of dark maps by using the <code>style dark</code>.</p>
+<p>You can toggle light/dark theme from the left hand menu.</p>
+<p><img decoding="async" loading="lazy" alt="Dark Theme" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-08-b4c4391a08b2f6201c2c86bcd3e4423e.jpeg" width="1159" height="597" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Alt text" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-11-10d31075c17faebe2aba43c3c0ff2fba.jpeg" width="1170" height="598" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="classic-online-wardley-maps">Classic Online Wardley Maps<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#classic-online-wardley-maps" class="hash-link" aria-label="Direct link to Classic Online Wardley Maps" title="Direct link to Classic Online Wardley Maps">​</a></h3>
+<p>Not ready to move across?  You can still access the old website - <a href="https://classic.onlinewardleymaps.com/" target="_blank" rel="noopener noreferrer">https://classic.onlinewardleymaps.com</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="unsaved-changes">Unsaved Changes<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#unsaved-changes" class="hash-link" aria-label="Direct link to Unsaved Changes" title="Direct link to Unsaved Changes">​</a></h3>
+<p>Using the browser, the user will be prompted if they navigate away when there are outstanding map changes.  This one gets me all the time.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="presentation--editor-mode">Presentation / Editor Mode<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#presentation--editor-mode" class="hash-link" aria-label="Direct link to Presentation / Editor Mode" title="Direct link to Presentation / Editor Mode">​</a></h3>
+<p>This will allow you to hide the map text / editor to give a fullscreen view of the map.  This will also allow maps to be viewed from a mobile device in portrait mode.</p>
+<p><img decoding="async" loading="lazy" alt="Presentation View" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-03-ae0a030e6932dd4bc05ba9e09daaa9f3.png" width="1550" height="136" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fullscreen-mode">Fullscreen mode.<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#fullscreen-mode" class="hash-link" aria-label="Direct link to Fullscreen mode." title="Direct link to Fullscreen mode.">​</a></h3>
+<p>Remove the header and iterations and go fullscreen with your map and editor.  You can also use this with Presentation mode leaving you with just your map.</p>
+<p><img decoding="async" loading="lazy" alt="Toggle Fullscreen" src="https://docs.onlinewardleymaps.com/assets/images/rn-12-23-10-c58003325ed71914c9e11c8b9a4dc232.png" width="1948" height="1098" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="export-as-svg">Export as SVG<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#export-as-svg" class="hash-link" aria-label="Direct link to Export as SVG" title="Direct link to Export as SVG">​</a></h3>
+<p>Now you can take your maps and load them directly into your favorite SVG editor. This feature empowers you to further customise and refine your maps using the tools you love.</p>
+<p><img decoding="async" loading="lazy" alt="Export as SVG" src="https://docs.onlinewardleymaps.com/assets/images/image-bb620b70f6d3e5955f16dd0dc84c3841.png" width="222" height="244" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes" title="Direct link to Bugfixes">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="changes-to-dragdrop">Changes to drag/drop<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#changes-to-dragdrop" class="hash-link" aria-label="Direct link to Changes to drag/drop" title="Direct link to Changes to drag/drop">​</a></h3>
+<p>A bug manifested after elements on the map are moved followed by a ESC key press later on.  The keypress would incorrectly revert the moved element often making the map appear broken.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="usage-guide">Usage Guide<a href="https://docs.onlinewardleymaps.com/blog/2023-12-21-release-note#usage-guide" class="hash-link" aria-label="Direct link to Usage Guide" title="Direct link to Usage Guide">​</a></h3>
+<p>Until today, the documentation website (this website) was not accessible via the onlinewardleymaps.com website.  A navigational link has been added into the "More" menu (top right) and in the footer.</p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="release" term="release"/>
+        <category label="onlinewardleymaps" term="onlinewardleymaps"/>
+        <category label="quality-of-life" term="quality-of-life"/>
+        <category label="components" term="components"/>
+        <category label="pipeline" term="pipeline"/>
+        <category label="annotations" term="annotations"/>
+        <category label="value-chain" term="value-chain"/>
+        <category label="evolve" term="evolve"/>
+        <category label="iterations" term="iterations"/>
+        <category label="editor" term="editor"/>
+        <category label="theme" term="theme"/>
+        <category label="export" term="export"/>
+        <category label="svg" term="svg"/>
+        <category label="bugfixes" term="bugfixes"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release - May 2021]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note"/>
+        <updated>2021-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the May release of OnlineWardleyMaps.  Minor release to bring Quality of Life improvements.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the May release of OnlineWardleyMaps.  Minor release to bring Quality of Life improvements.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quality-of-life-improvements">Quality of Life Improvements<a href="https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note#quality-of-life-improvements" class="hash-link" aria-label="Direct link to Quality of Life Improvements" title="Direct link to Quality of Life Improvements">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quick-adding-components">Quick Adding Components<a href="https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note#quick-adding-components" class="hash-link" aria-label="Direct link to Quick Adding Components" title="Direct link to Quick Adding Components">​</a></h3>
+<p>Until today, the only way to add new map components is via the editor.  This QoL improvement will allow you to double click anywhere on the map to quickly place a component.  Key bindings are present, Press Enter to add or Escape to cancel.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quick-linking-components">Quick Linking Components<a href="https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note#quick-linking-components" class="hash-link" aria-label="Direct link to Quick Linking Components" title="Direct link to Quick Linking Components">​</a></h3>
+<p>Until today, the only way to link components was via the editor.  This QoL improvement will allow you to click and point to create a new link.  To do this, first press CTRL or CMD if MacOS.  You'll notice component that can be linked will have a blue drop shadow.  Whilst keeping CTRL/CMD pressed, Click the component and begin to move your mouse.  You'll notice a line will start to draw.  Next, go to the compoent you'd like to connect (whilst keeping CTRL/CMD pressed) and finally click to complete the link.</p>
+<ol>
+<li>Press and hold CTRL/CMD throughout the process.</li>
+<li>Click the start component.</li>
+<li>Move your mouse to the end component.</li>
+<li>Click the end component.</li>
+<li>Release CTRL/CMD.</li>
+<li>Done.</li>
+</ol>
+<p>At any point, you can release CTRL/CMD and the linking process will cancel.</p>
+<p><img decoding="async" loading="lazy" alt="Display Code Snippets" src="https://docs.onlinewardleymaps.com/assets/images/qol-may-2021-1cb77468dc9cc5c2d693af5ec249fda3.gif" width="600" height="501" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes<a href="https://docs.onlinewardleymaps.com/blog/2021-05-15-release-note#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes" title="Direct link to Bugfixes">​</a></h2>
+<p>A small bug presented itself when dragging/dropping components (the maptext was not correctly updated with new coordinates) when the first line of the maptext was either a comment or blank line</p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="release" term="release"/>
+        <category label="onlinewardleymaps" term="onlinewardleymaps"/>
+        <category label="quality-of-life" term="quality-of-life"/>
+        <category label="components" term="components"/>
+        <category label="shortcuts" term="shortcuts"/>
+        <category label="bugfixes" term="bugfixes"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wardley Maps for Visual Studio Code]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps"/>
+        <updated>2020-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wardley Maps for Visual Studio Code is a Wardley Map generator. It takes map code written in the editor and renders it as a Wardley Map.  You can interact with the map by repositioning components by dragging or dropping.  Changes made via the rendered map are reflected back into your map code.]]></summary>
+        <content type="html"><![CDATA[<p>Wardley Maps for Visual Studio Code is a Wardley Map generator. It takes map code written in the editor and renders it as a Wardley Map.  You can interact with the map by repositioning components by dragging or dropping.  Changes made via the rendered map are reflected back into your map code.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quick-links">Quick Links<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#quick-links" class="hash-link" aria-label="Direct link to Quick Links" title="Direct link to Quick Links">​</a></h2>
+<ul>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#getting-started">Getting Started</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#get-the-extension">Get the extension</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#using-the-extension">Using the extension</a>
+<ul>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#syntax-highlighting">Syntax Highlighting</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#displaying-maps">Displaying Maps</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#auto-completions">Auto Completions</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#snippets">Snippets</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<p>First, you need to make sure you have Visual Studio Code installed.  <a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#get-the-extension">Skip ahead</a> if you're already setup.</p>
+<p>Head over to <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/download</a> and download and install the version for your operating system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-the-extension">Get the extension<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#get-the-extension" class="hash-link" aria-label="Direct link to Get the extension" title="Direct link to Get the extension">​</a></h2>
+<p>Once Visual Studio Code is installed and running, search and install Wardley Maps extension from the Extensions panel. To get to the Extensions panel, from the file menu, select <code>View</code> -&gt; <code>Extensions</code>.  You can also use the keyboard shortcut (Windows) <code>Ctrl+Shift+X</code> (macOS) <code>Cmd+Shift+X</code>.</p>
+<p>Simply search for and install the extension <code>Wardley Maps</code> shown below.</p>
+<p><strong>Alternatively</strong>, if you are familiar with VSCode, you can shortcut this process by entering the following command into the Command Palette ((Windows) <code>Ctrl+Shift+P</code> / (macOS) <code>Cmd+Shift+P</code>).  <code>ext install damonsk.vscode-wardley-maps</code></p>
+<p><img decoding="async" loading="lazy" alt="Searching for VS Code Extension" src="https://docs.onlinewardleymaps.com/assets/images/vscode-extensions-search-023ec1831cf37fc47d098ac920a3fe6f.png" width="2222" height="1374" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="using-the-extension">Using the extension<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#using-the-extension" class="hash-link" aria-label="Direct link to Using the extension" title="Direct link to Using the extension">​</a></h2>
+<ul>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#syntax-highlighting">Syntax Highlighting</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#displaying-maps">Displaying Maps</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#auto-completions">Auto Completions</a></li>
+<li><a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#snippets">Snippets</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="syntax-highlighting">Syntax Highlighting<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#syntax-highlighting" class="hash-link" aria-label="Direct link to Syntax Highlighting" title="Direct link to Syntax Highlighting">​</a></h3>
+<p>To reduce the cognitive load when reading maps as code, this extension brings with it syntax highlighting.</p>
+<p>To enable syntax highlighting, you have two options.  By default, any file with an extenion of <code>.wm</code> or <code>.owm</code> will auto enable the syntax highlighting.</p>
+<p>For existing files, or new unsaved files, you can set the Language Mode.</p>
+<p>Using the Command Palette (keyboard shortcut: (Windows) <code>Ctrl+Shift+P</code> (macOS) <code>Cmd+Shift+P</code>) enter <code>Change Language Mode</code>, press enter and then select <code>Wardley Map</code></p>
+<p><img decoding="async" loading="lazy" alt="Setting Language Mode" src="https://docs.onlinewardleymaps.com/assets/images/vscode-set-language-985c5ad1a880ef3060efc7749bfd5311.gif" width="600" height="345" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="displaying-maps">Displaying Maps<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#displaying-maps" class="hash-link" aria-label="Direct link to Displaying Maps" title="Direct link to Displaying Maps">​</a></h3>
+<p>Using the Command Palette (keyboard shortcut: (Windows) <code>Ctrl+Shift+P</code> (macOS) <code>Cmd+Shift+P</code>) enter <code>Wardley Maps: Display Map</code> and then press enter.</p>
+<p><img decoding="async" loading="lazy" alt="Display Wardley Map" src="https://docs.onlinewardleymaps.com/assets/images/vscode-display-map-ddceb6dd98db8061dde55349bb55a653.gif" width="600" height="345" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="auto-completions">Auto Completions<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#auto-completions" class="hash-link" aria-label="Direct link to Auto Completions" title="Direct link to Auto Completions">​</a></h3>
+<p>To access the code completions (or intellisense) within the text editor, press <code>Ctrl+Space</code>.  Code completions (shown in red below) will contain both the keywords (such as <code>component</code> <code>anchor</code> <code>ecosystem</code>) as well as any variables specific to your map.  For example, <code>component Hot Water [...]</code> will result in a variable <code>Hot Water</code>.  Variables can be used to link components in a value chain.  <code>Hot Water-&gt;Water</code></p>
+<p><img decoding="async" loading="lazy" alt="Display Code Completions" src="https://docs.onlinewardleymaps.com/assets/images/vscode-completions-55dbddc1d05a14f3352fa980064eef2d.png" width="2224" height="1366" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="snippets">Snippets<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#snippets" class="hash-link" aria-label="Direct link to Snippets" title="Direct link to Snippets">​</a></h3>
+<p>Similar to code completions, to access snippets within the text editor, press <code>Ctrl+Space</code>.  Snippets (shown in yellow below) are complete examples which you can modify, you may <code>tab</code> between placeholders for quick editing.</p>
+<p>The following snippet <code>anchor name [0.9, 0.1]</code> has three placeholders.</p>
+<p><code>anchor &lt;initial text cursor&gt; [&lt;tab to edit&gt;, &lt;tab again to edit&gt;]</code></p>
+<p><img decoding="async" loading="lazy" alt="Display Code Snippets" src="https://docs.onlinewardleymaps.com/assets/images/vscode-completions-55dbddc1d05a14f3352fa980064eef2d.png" width="2224" height="1366" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="license--source">License &amp; Source<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#license--source" class="hash-link" aria-label="Direct link to License &amp; Source" title="Direct link to License &amp; Source">​</a></h2>
+<p>This project is licensed under the <a href="https://github.com/damonsk/vscode-wardley-maps/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT license</a> and the source code can be found at <a href="https://github.com/damonsk/vscode-wardley-maps" target="_blank" rel="noopener noreferrer">github.com/damonsk/vscode-wardley-maps</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="support-the-project">Support the Project<a href="https://docs.onlinewardleymaps.com/blog/2020-11-01-vscode-wardley-maps#support-the-project" class="hash-link" aria-label="Direct link to Support the Project" title="Direct link to Support the Project">​</a></h2>
+<p>If you find <a href="https://github.com/damonsk/obsidian-wardley-maps" target="_blank" rel="noopener noreferrer">obsidian-wardley-maps</a>, <a href="https://github.com/damonsk/onlinewardleymaps" target="_blank" rel="noopener noreferrer">OnlineWardleyMaps</a> or <a href="https://github.com/damonsk/vscode-wardley-maps" target="_blank" rel="noopener noreferrer">vscode-wardley-maps</a> valuable, consider supporting its development:</p>
+<p><a href="https://www.patreon.com/mapsascode/overview" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Patreon" class="img_ev3q"></a></p>
+<p>Follow on X (Twitter) <a href="https://x.com/mapsascode" target="_blank" rel="noopener noreferrer">@MapsAsCode</a> for updates and announcements!</p>
+<p>Your support helps maintain and improve this plugin as well as OnlineWardleyMaps and vscode-wardley-maps. Every contribution is appreciated. Thank you for your support!</p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="plugin" term="plugin"/>
+        <category label="vs-code" term="vs-code"/>
+        <category label="visual-studio-code" term="visual-studio-code"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Pioneers, Settlers and Town Planners]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2020-06-06-pioneers-settlers-townplanners</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2020-06-06-pioneers-settlers-townplanners"/>
+        <updated>2020-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Usage]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage">Usage<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-pioneers-settlers-townplanners#usage" class="hash-link" aria-label="Direct link to Usage" title="Direct link to Usage">​</a></h2>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pioneers [&lt;visibility&gt;, &lt;maturity&gt;] &lt;width&gt; &lt;height&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">settlers [&lt;visibility&gt;, &lt;maturity&gt;] &lt;width&gt; &lt;height&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">townplanners [&lt;visibility&gt;, &lt;maturity&gt;] &lt;width&gt; &lt;height&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lets-look-at-each-part">Let's look at each part<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-pioneers-settlers-townplanners#lets-look-at-each-part" class="hash-link" aria-label="Direct link to Let's look at each part" title="Direct link to Let's look at each part">​</a></h2>
+<p><code>pioneers</code>, <code>settlers</code> and <code>townplanners</code> are keywords. Each new line in your editor should begin with one of these keywords.</p>
+<p><code>&lt;visibility&gt;</code> and <code>&lt;maturity&gt;</code> are the co-ordinates of where you want the block to appear on your map. For example 0.9, 0.2 would translate roughly to <em>Visible</em> and <em>Custom Built</em>.</p>
+<p>As we build it up it should now look like</p>
+<p><code>pioneers [0.9, 0.2]</code></p>
+<p>Next up are the width and height properties. These are numbers. A good starter would be 150 80.</p>
+<p><code>pioneers [0.9, 0.2] 150 80</code></p>
+<p>An example of a Web Site component with pioneers would look like:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">component Web Site [0.82, 0.25]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">build Web Site</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pioneers [0.9, 0.2] 150 80</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="output">Output<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-pioneers-settlers-townplanners#output" class="hash-link" aria-label="Direct link to Output" title="Direct link to Output">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="My helpful screenshot" src="https://docs.onlinewardleymaps.com/assets/images/pst-output-a70898193d48ddd444752deb7ec1dcd0.png" width="1654" height="1118" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="examples" term="examples"/>
+        <category label="pst" term="pst"/>
+        <category label="pioneers-settlers-townplanners" term="pioneers-settlers-townplanners"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tips and Tricks - Creating a Legend]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-creating-a-legend</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-creating-a-legend"/>
+        <updated>2020-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pioneers, Settlers and Town Planners Example]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pioneers-settlers-and-town-planners-example">Pioneers, Settlers and Town Planners Example<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-creating-a-legend#pioneers-settlers-and-town-planners-example" class="hash-link" aria-label="Direct link to Pioneers, Settlers and Town Planners Example" title="Direct link to Pioneers, Settlers and Town Planners Example">​</a></h2>
+<p>Notes are generic pieces of text that you can place anywhere on a map.  They can be versatile and allow you to add more context.</p>
+<p>Here is an example of using <code>note</code> elements combined with <code>pioneers</code>, <code>settlers</code> and <code>townplanners</code> elements to create a legend in the top right of the map.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="template-copy-and-paste-into-your-map">Template (copy and paste into your map)<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-creating-a-legend#template-copy-and-paste-into-your-map" class="hash-link" aria-label="Direct link to Template (copy and paste into your map)" title="Direct link to Template (copy and paste into your map)">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// PST Legend Top Right</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pioneers [0.95, 0.83] 120 30</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">settlers [0.88, 0.83] 120 30</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">townplanners [0.81, 0.83] 120 30</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Pioneers [0.91, 0.85]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Settlers [0.84, 0.85]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Town Planners [0.77, 0.85]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="output">Output<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-creating-a-legend#output" class="hash-link" aria-label="Direct link to Output" title="Direct link to Output">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Pioneers, Settlers and Town Planner Legend Example" src="https://docs.onlinewardleymaps.com/assets/images/tt2-pst-c0ca83aeba028bd794de219884bc4959.png" width="1662" height="1050" class="img_ev3q"></p>
+<p>To get started with this template <a href="https://onlinewardleymaps.com/#clone:owm-tips-tricks-pst" target="_blank">click here to clone this example.</a></p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="examples" term="examples"/>
+        <category label="notes" term="notes"/>
+        <category label="tips-and-tricks" term="tips-and-tricks"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tips and Tricks - Using Notes]]></title>
+        <id>https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-using-notes</id>
+        <link href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-using-notes"/>
+        <updated>2020-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Maturity Mapping Example]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="maturity-mapping-example">Maturity Mapping Example<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-using-notes#maturity-mapping-example" class="hash-link" aria-label="Direct link to Maturity Mapping Example" title="Direct link to Maturity Mapping Example">​</a></h2>
+<p>Notes are generic pieces of text that you can place anywhere on a map.  They can be versatile and allow you to add more context.</p>
+<p>Here is an example of using adding additional context from <a href="https://maturitymapping.com/" target="_blank">Maturity Mapping</a> onto the map.  The evolution axis has been changed to Novel, Emerging, Good and Best.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="template-copy-and-paste-into-your-map">Template (copy and paste into your map)<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-using-notes#template-copy-and-paste-into-your-map" class="hash-link" aria-label="Direct link to Template (copy and paste into your map)" title="Direct link to Template (copy and paste into your map)">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// Map setup.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">evolution Novel-&gt;Emerging-&gt;Good-&gt;Best</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note New to us [0.035, 0.01]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Not well understood [0.01, 0.01]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Trying this out [0.035, 0.18]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Can begin to explain [0.01, 0.18]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Getting to grips with this [0.035, 0.41]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Room for improvement [0.01, 0.41]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Nailed it [0.035, 0.71]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note A practice we've established [0.01, 0.71]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Unmodeled [0.06, 0.01]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Divergent [0.06, 0.18]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Convergent [0.06, 0.41]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">note Modeled [0.06, 0.71]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="output">Output<a href="https://docs.onlinewardleymaps.com/blog/2020-06-06-tips-tricks-using-notes#output" class="hash-link" aria-label="Direct link to Output" title="Direct link to Output">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Maturity Mapping Example" src="https://docs.onlinewardleymaps.com/assets/images/tt1-notes-ff15d03df6bf7229e721b4b12e3ebcf3.png" width="1676" height="1046" class="img_ev3q"></p>
+<p>To get started with this template <a href="https://onlinewardleymaps.com/#clone:owm-tips-tricks-notes" target="_blank">click here to clone this example.</a></p>]]></content>
+        <author>
+            <name>Damon Skelhorn</name>
+            <uri>https://github.com/damonsk</uri>
+        </author>
+        <category label="maps-as-code" term="maps-as-code"/>
+        <category label="examples" term="examples"/>
+        <category label="notes" term="notes"/>
+        <category label="tips-and-tricks" term="tips-and-tricks"/>
+        <category label="maturity-mapping" term="maturity-mapping"/>
+    </entry>
+</feed>
