@@ -6,8 +6,6 @@ sidebar_position: 2
 
 Wardley Mapping is a framework for visualizing your environment so you can make better decisions. OnlineWardleyMaps uses a Domain Specific Language (DSL) to define Wardley Maps in a concise, readable format. This allows you to create, edit, and share maps as plain text.
 
-> "The process of mapping is also the process of constructing a model of reality. An incorrect model that is also useful is the definition of success." ([learnwardleymapping.com](https://learnwardleymapping.com/landscape/))
-
 ## Basic Syntax
 
 - Each line represents a map element or relationship.

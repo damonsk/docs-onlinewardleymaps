@@ -25,3 +25,25 @@ component Customer [0.9, 0.5]
 ```
 
 **Tip:** If you get the granularity wrong, you will learn and adjust. Mapping is an iterative craft.
+
+## Interactive Features
+
+### Moving Components
+
+You can move components on the map in two ways:
+
+1. Edit the coordinates in the text editor
+2. Use CMD+Drag (macOS) or CTRL+Drag (Windows/Linux) to move components directly on the map interface
+
+:::note
+If you accidentally move a component, you can press ESC to revert the last move operation.
+:::
+
+### Renaming Components
+
+You can rename components in two ways:
+
+1. Edit the component name in the text editor
+2. Double-click the component label on the map to rename it directly
+   - Press Enter to accept the new name
+   - Press ESC to cancel the rename operation

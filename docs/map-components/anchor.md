@@ -6,7 +6,7 @@ sidebar_position: 1
 
 A Wardley Map always starts with an **anchor**—the user or stakeholder need. The anchor represents the situation you want to influence, often called the "battle at hand." It is the top-most element in the value chain and all other components ultimately serve this need.
 
-> "A map of a competitive business landscape is context-specific, but instead of magnetic North, the anchor is the User being served and their corresponding needs." ([learnwardleymapping.com](https://learnwardleymapping.com/landscape/))
+In a competitive business landscape map, instead of magnetic North, the anchor is the User being served and their corresponding needs. This context-specific focus ensures the map reflects the right perspective and strategic priorities.
 
 ## Syntax
 

@@ -6,8 +6,6 @@ sidebar_position: 3
 
 A **market** is a special type of component that represents a market context or environment in your map. Markets help you visualize where competition, maturity, and commoditization are taking place.
 
-> "Market: Undefined market | Forming market | Growing market | Mature market" ([learnwardleymapping.com](https://learnwardleymapping.com/landscape/))
-
 ## Syntax
 
 ```text
