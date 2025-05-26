@@ -1,8 +1,4 @@
----
-sidebar_position: 12
----
-
-# Pioneers, Settlers, and Town Planners (PST)
+# Pioneers, Settlers, & Town Planners (PST)
 
 Wardley Maps support the visualization of organizational structure and evolution using the Pioneers, Settlers, and Town Planners (PST) model. These elements help you represent teams or roles responsible for different stages of evolution.
 
@@ -36,8 +32,10 @@ You can use these elements to create a legend or annotate your map with organiza
 
 ## Visual Example
 
+![Pioneers, Settlers and Town Planners in action](/img/pst-example.jpeg)
+
 ![Pioneers, Settlers and Town Planner Legend Example](/img/tt2-pst.png)
 
 ---
 
-For more, see the [Tips & Tricks: Creating a Legend](/blog/2020-06-06-tips-tricks-creating-a-legend/) and [Using Pioneers, Settlers and Town Planners](/blog/2020-06-06-pioneers-settlers-townplanners/).
+[Using Pioneers, Settlers and Town Planners](/blog/2020-06-06-pioneers-settlers-townplanners/).

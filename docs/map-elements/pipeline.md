@@ -1,12 +1,6 @@
----
-sidebar_position: 4
----
-
 # Pipeline
 
 A **pipeline** represents a flow or process that connects components across stages of evolution. Pipelines are used to simplify the notation of complex requirement chains, making maps easier to read and understand.
-
-> "Sometimes, there are many similar ways to accomplish the same thing... you might use a pipeline to simplify the notation." ([wardleymaps.com](https://www.wardleymaps.com/intro))
 
 ## Syntax
 
@@ -34,31 +28,11 @@ pipeline Kettle
 
 ### Visual Example
 
-![Pipeline Example](../../blog/2023-12-21-release-note/rn-12-23-02.png)
+![Pipeline Example](/img/pipeline.png)
 
-**Tip:** Use pipelines to clarify and condense complex flows in your map. This syntax provides better control over component positioning and allows for more structured representation of related components.
-
-## Annotations
-
-You can add context to pipeline links using annotations. This allows you to highlight relationships such as "limited by", "constraint", or "feedback loop" without using additional notes.
-
-### Annotation Syntax
-
-```text
-ComponentA->ComponentB; limited by
-```
-
-### Annotation Example
-
-```text
-Hot Water->Kettle; limited by
-```
-
-### Visual Example
-
-![Pipeline Annotation Example](../../blog/2023-12-21-release-note/rn-12-23-06.png)
-
-These annotations help provide additional context about the relationships between components in your pipeline, making the map more informative and easier to understand.
+:::tip
+Use pipelines to clarify and condense complex flows in your map. This syntax provides better control over component positioning and allows for more structured representation of related components.
+:::
 
 ## Legacy Syntax
 

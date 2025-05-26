@@ -1,8 +1,14 @@
----
-sidebar_position: 1
----
-
 # Anchor
+
+Every map starts with an **anchor**—the user or stakeholder need. This sets the context for all dependencies and components below.
+
+```text
+anchor Business [0.95, 0.63]
+```
+
+:::tip
+Start every map by identifying the anchor and their needs. This sets the context for all dependencies and components below.
+:::
 
 A Wardley Map always starts with an **anchor**—the user or stakeholder need. The anchor represents the situation you want to influence, often called the "battle at hand." It is the top-most element in the value chain and all other components ultimately serve this need.
 
@@ -21,7 +27,10 @@ anchor Name [Visibility (Y Axis), Maturity (X Axis)]
 ## Example
 
 ```text
-anchor User [0.95, 0.63]
+anchor Customer [0.95, 0.63]
+anchor Business [0.95, 0.53]
 ```
 
-**Tip:** Start every map by identifying the anchor and their needs. This sets the context for all dependencies and components below.
+## Visual Example
+
+![Anchor Example](/img/anchor.png)

@@ -26,7 +26,7 @@ deaccelerator barbaz [0.2, 0.7]
 
 ## Visual Example
 
-![Accelerators & Deaccelerators Example](/img/qol-may-2021.gif)
+![Accelerators & Deaccelerators Example](/img/accelerator-deaccelerator.png)
 
 ---
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Notes
 
 **Notes** are versatile text elements that you can place anywhere on your map to add information, context, or reminders. They can be used to clarify intent, highlight risks, record insights, create legends, or provide additional context for your map.
@@ -51,4 +47,6 @@ note Best [0.01, 0.71]
 3. **Consistent Styling**: Maintain consistent positioning for related notes
 4. **Documentation**: Use notes to document assumptions and decisions
 
-**Tip:** Notes are perfect for capturing your thinking and improving collaboration with others.
+:::tip
+Notes are perfect for capturing your thinking and improving collaboration with others.
+:::

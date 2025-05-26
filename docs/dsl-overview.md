@@ -1,61 +1,134 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# DSL Overview
+# Quick Reference
 
-Wardley Mapping is a framework for visualizing your environment so you can make better decisions. OnlineWardleyMaps uses a Domain Specific Language (DSL) to define Wardley Maps in a concise, readable format. This allows you to create, edit, and share maps as plain text.
+OnlineWardleyMaps uses a Domain Specific Language (DSL) to define Wardley Maps in a concise, readable format. This DSL allows you to create, edit, and share maps as plain text, enabling version control and easy collaboration.
+
+Wardley Mapping is a framework for visualizing your environment so you can make better decisions. The DSL captures key concepts such as components, pipelines, evolution stages, and relationships.
 
 ## Basic Syntax
 
-- Each line represents a map element or relationship.
-- Comments start with `#` and are ignored.
-- Indentation is not required.
+### Components
 
-Mapping is a craft—embrace the messiness, iterate, and learn by doing.
+Define components with optional visibility and maturity values:
 
-## Core Elements
+```dsl
+component Customer [1, 0.4]
+component Server [0.5, 0.8]
+```
 
-### [Anchor](map-components/anchor.md)
+### Pipelines
 
-Every map starts with an **anchor**—the user or stakeholder need. This sets the context for all dependencies and components below.
+Define pipelines to group components and show maturity boundaries:
 
-### [Component](map-components/component.md)
+```dsl
+pipeline PaymentSystem [0.15, 0.65]
+```
 
-Components are situation-relevant things (activities, practices, data, knowledge) that make up your value chain.
+### Evolve
 
-### [Market](map-components/market.md)
+Mark components as evolving or evolved with maturity and optional labels:
 
-Markets represent the broader context or environment in which your components operate.
+```dsl
+component Foo [0.9, 0.1]
+evolve Foo 0.9 label [66, 99]
+```
 
-### [Pipeline](map-components/pipeline.md)
+### Links
 
-Pipelines simplify complex flows or processes, connecting components across stages of evolution.
+Create links between components with optional flow and context:
 
-### [Links & Flows](map-components/link.md)
+```dsl
+Customer->Server
+Customer+>Server
+Customer->Server; Additional context
+```
 
-Dependencies between components form the value chain, showing how needs are met through supporting capabilities.
+- `->` creates a link from one component to another.
+- `+>` indicates a flow direction in the link.
+- You can add additional context or notes to a link using a semicolon `;` followed by the context text.
 
-### [Evolution & Inertia](map-components/evolution.md)
+Example:
 
-The horizontal axis shows how components evolve from genesis to commodity. Mark components as evolving or facing inertia.
+```dsl
+Customer->Server; Additional context
+```
 
-### [Build, Buy, Outsource](map-components/build-buy-outsource.md)
+This creates a link from `Customer` to `Server` with the note "Additional context" attached to the link.
 
-Highlight execution strategies for components—how they will be delivered.
+### Notes and Annotations
 
-### [Submaps & URLs](map-components/submap.md)
+Add notes and annotations with visibility and maturity:
 
-Link components to submaps or external resources for complex systems.
+```dsl
+note This is a note [0.9, 0.1]
+annotation 1 [.38, .4] Standardising power allows Kettles to evolve faster
+```
 
-### [Notes](map-components/note.md)
+### Submaps
 
-Annotate your map with additional information, context, or reminders.
+Define submaps with optional coordinates, labels, and URLs:
 
-### [Styles & Evolution Stages](map-components/style.md)
+```dsl
+submap Order [0.11, 0.31] label [-15, 30]
+submap Order url(urlId)
+```
 
-Change the look and feel of your map and customize evolution stage labels.
+### Accelerators
+
+Define accelerators and deaccelerators:
+
+```dsl
+accelerator randomkey [0.9, 0.1]
+deaccelerator randomkey [0.9, 0.1]
+```
+
+### URLs and Anchors
+
+Define URLs and anchors:
+
+```dsl
+url Foo [https://example.com]
+anchor Foo []
+```
+
+### Map Size and Style
+
+Set map size and style:
+
+```dsl
+size [1024, 768]
+style wardley
+```
+
+## Positioning Elements
+
+You can specify label positions for elements using the `label` keyword:
+
+```dsl
+component Foo [0.9, 0.1] label [66, 99]
+```
+
+## Decorators
+
+Use decorators like `build`, `buy`, `outsource` to add metadata to components:
+
+```dsl
+evolve Foo 0.9 (buy)
+```
+
+## Renaming Elements
+
+When you rename a component, related elements such as pipelines, evolves, markets, and ecosystems are automatically updated.
+
+## Tips
+
+- Whitespace and comments are ignored.
+- Pipelines without boundaries are hidden by default.
+- Use flow (`+>`) in links to indicate flow direction.
 
 ---
 
-See [Examples](examples.md) for practical usage, or explore each [Map Component](map-components/anchor.md) for detailed documentation.
+For more detailed examples, see the [Examples](./examples.md) page.

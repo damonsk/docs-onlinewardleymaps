@@ -1,4 +1,4 @@
-# Evolution
+# Evolution Axis
 
 The evolution axis is a core concept in Wardley Maps, representing how components evolve from left to right through four main stages: Genesis, Custom Built, Product, and Commodity. This axis helps visualize and understand the maturity and predictability of components in your map.
 
@@ -9,7 +9,9 @@ The evolution axis is a core concept in Wardley Maps, representing how component
 - **Evolution can vary**: Different industries or contexts may evolve at different rates
 - **Commoditization**: Movement toward commodity status often leads to standardization and cost reduction
 
-**Tip:** Use the evolution axis to challenge assumptions about component maturity and plan for future changes in your landscape.
+:::tip
+Use the evolution axis to challenge assumptions about component maturity and plan for future changes in your landscape.
+:::
 
 ## Evolution Stage Variations
 

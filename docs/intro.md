@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# OnlineWardleyMaps
+# About OnlineWardleyMaps
 
 The source code that runs [www.OnlineWardleyMaps.com](https://www.onlinewardleymaps.com). Also available as a standalone Visual Studio Code extension—[vscode-wardley-maps](https://github.com/damonsk/vscode-wardley-maps)—and as an [Obsidian plugin](https://github.com/damonsk/obsidian-wardley-maps).
 
@@ -10,7 +10,7 @@ Wardley Mapping courtesy of Simon Wardley, CC BY-SA 4.0. To learn more, see [Sim
 
 ## What is OnlineWardleyMaps?
 
-OnlineWardleyMaps is a tool for creating, editing, and sharing Wardley Maps directly in your browser. It helps you visualize value chains, component evolution, and strategic context using a simple, expressive DSL (Domain Specific Language).
+OnlineWardleyMaps is a tool for creating, editing, and sharing Wardley Maps directly in your browser. It helps you visualize value chains, component evolution, and strategic context.
 
 - **Interactive map editor**
 - **Text-based DSL for versioning and sharing**
