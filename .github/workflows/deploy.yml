@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          # Optional: set the branch to deploy to, default is gh-pages
+          # Optional: set the branch to deploy to, default is gh-pages.
           # publish_branch: gh-pages
