@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Map Iterations
 
 Map Iterations is a powerful feature that allows you to capture and track how your Wardley Map evolves over time. This feature transforms your maps from static representations into dynamic timelines of strategic evolution.

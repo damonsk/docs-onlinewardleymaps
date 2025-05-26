@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Quick Add & Quick Link
 
 OnlineWardleyMaps supports quick ways to add and link components directly on the map, improving your workflow and reducing the need to edit code manually.

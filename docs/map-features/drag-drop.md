@@ -1,8 +1,12 @@
-# Element Drag and Drop
+---
+sidebar_position: 3
+---
+
+# Drag and Drop
 
 OnlineWardleyMaps supports interactive element manipulation directly on the map, making it easier to position and rename map elements without manually editing the map code.  Movable elements will have a blue glow when pressing either CMD or CTRL.
 
-## Element Movement
+## Movement
 
 You can move components on the map by using:
 - CMD+Drag (macOS)
