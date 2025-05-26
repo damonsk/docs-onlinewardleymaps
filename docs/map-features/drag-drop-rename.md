@@ -15,7 +15,7 @@ If you accidentally move a component, you can press ESC to revert the last move 
 :::
 ---
 
-For more information about renaming components, see [Element Renaming](./component-renaming.md).
+For more information about renaming components, see [Element Renaming](./element-renaming.md).
 
 ---
 

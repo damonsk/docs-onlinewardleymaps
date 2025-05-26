@@ -21,7 +21,3 @@ A link will be created between the two components. If you release <kbd>CTRL</kbd
 ## Visual Example
 
 ![Quick Add and Quick Link](/img/qol-may-2021.gif)
-
----
-
-For more details, see the [May 2021 Release Note](../../blog/2021-05-15-release-note/index.md).

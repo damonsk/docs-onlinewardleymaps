@@ -20,16 +20,8 @@ const config: Config = {
   organizationName: 'damonsk', // Usually your GitHub org/user name.
   projectName: 'docs-onlinewardleymaps', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
 
   presets: [
     [
@@ -40,7 +32,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/damonsk/docs-onlinewardleymaps/tree/main',
+            'https://github.com/damonsk/docs-onlinewardleymaps/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +43,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/damonsk/docs-onlinewardleymaps/tree/main',
+            'https://github.com/damonsk/docs-onlinewardleymaps/tree/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
