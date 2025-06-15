@@ -6,6 +6,13 @@ sidebar_position: 3
 
 OnlineWardleyMaps uses a Domain Specific Language (DSL) to define Wardley Maps in a concise, readable format. This DSL allows you to create, edit, and share maps as plain text, enabling version control and easy collaboration.
 
+**The OnlineWardleyMaps (*.owm) DSL has become the most widely adopted format for Wardley Maps**, powering multiple tools across the ecosystem including:
+- **VS Code Extension** - Full syntax highlighting and auto-completion
+- **Obsidian.md Plugin** - Embedded maps within your notes
+- **Large Language Models** - AI assistants like ChatGPT, Claude, and others can generate OWM format maps
+
+This widespread adoption means maps created in OnlineWardleyMaps can be seamlessly used across different tools and workflows, making it the de facto standard for maps-as-code.
+
 Wardley Mapping is a framework for visualizing your environment so you can make better decisions. The DSL captures key concepts such as components, pipelines, evolution stages, and relationships.
 
 ## Basic Syntax
