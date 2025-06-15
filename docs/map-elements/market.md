@@ -7,8 +7,8 @@ An **ecosystem** represents a broader interconnected system of markets, componen
 ## Syntax
 
 ```text
-market Name [Visibility, Maturity]
-ecosystem Name [Visibility, Maturity]
+component Name [Visibility, Maturity] (market)
+component Name [Visibility, Maturity] (ecosystem)
 ```
 
 - **Name**: The market or ecosystem being represented.
@@ -22,7 +22,7 @@ anchor Client [0.94, 0.56]
 component User Experience [0.81, 0.67] 
 component Application [0.62, 0.68] 
 component Payments [0.53, 0.45] 
-market AppStore [0.32, 0.65] 
+component AppStore [0.32, 0.65] (market)
 
 Client->User Experience
 User Experience->Application
@@ -45,7 +45,7 @@ note joapen.com/blog/2020/10/02/wardley-maps-the-payment-war-in-the-mobile-app-e
 Markets can be combined with decorators to indicate execution strategy:
 
 ```text
-evolve MarketName 0.9 (market, buy)
+component Name [Visibility, Maturity] (market, buy)
 ```
 
 When using decorators with markets:
@@ -57,8 +57,8 @@ When using decorators with markets:
 ### Examples with Decorators
 
 ```text
-evolve CustomerMarket 0.9 (market, buy)
-evolve SupplierMarket 0.8 (market, outsource)
+component CustomerMarket 0.9 (market, buy)
+component SupplierMarket 0.8 (market, outsource)
 ```
 
 :::note

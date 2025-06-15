@@ -15,11 +15,15 @@ component Name [Visibility, Maturity]
 ## Example
 
 ```text
-component Component 1 [0.68, 0.54]
-component Component 2 [0.78, 0.54]
-component Component 3 [0.59, 0.54]
-component Component 4 [0.50, 0.54]
+component Cup of Tea [0.79, 0.61] label [-85.48, 3.78]
+component Cup [0.73, 0.78]
+component Tea [0.63, 0.81]
+component Hot Water [0.52, 0.80]
+component Water [0.38, 0.82]
+component Kettle [0.43, 0.35] label [-57, 4]
 ```
+
+The `label` attribute is optional and allows you to adjust the position of the component's label on the map.
 
 ## Visual Example
 

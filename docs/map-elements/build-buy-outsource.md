@@ -5,10 +5,9 @@
 ## Syntax
 
 ```text
-build <component>
-buy <component>
-outsource <component>
-component Name [..] (buy)
+component <component> [visibility, maturity] (build)
+component <component> [visibility, maturity] (buy)
+component <component> [visibility, maturity] (outsource)
 ```
 
 - **build**: Indicates the component is to be built in-house.
@@ -26,27 +25,12 @@ component Customer [0.9, 0.2] (buy)
 Use these strategies to clarify sourcing decisions and communicate intent.
 :::
 
-## Using with Markets
-
-Method decorators can be combined with markets to indicate execution strategy for market components:
-
-```text
-evolve MarketName 0.9 (market, buy)
-```
-
 When using method decorators, the component's label spacing is automatically adjusted:
 
 - Label position shifts (x: +10, y: -20)
 - Spacing increases to improve visibility
 - This applies to both regular components and markets
 
-### Examples with Markets
-
-```text
-evolve CustomerMarket 0.9 (market, buy)
-component SupplierMarket [0.8, 0.6] (market, outsource)
-```
-
 :::tip
-The label spacing adjustment happens automatically for any component using `build`, `buy`, or `outsource` decorators.
+The label spacing adjustment happens automatically for any component using `build`, `buy`, `market` or `outsource` decorators.
 :::
