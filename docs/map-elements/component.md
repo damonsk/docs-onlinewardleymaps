@@ -38,4 +38,4 @@ If you get the granularity wrong, you will learn and adjust. Mapping is an itera
 
 ### Moving and Renaming Components
 
-Components can be moved and renamed both through the text editor and directly on the map interface. For details about these interactive features, see [Component Drag and Drop](../map-features/drag-drop-rename.md).
+Components can be moved and renamed both through the text editor and directly on the map interface. For details about these interactive features, see [Component Drag and Drop](../map-features/drag-drop.md).
