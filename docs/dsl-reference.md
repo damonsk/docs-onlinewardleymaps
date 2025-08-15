@@ -32,7 +32,8 @@ Mark components as evolving or facing inertia:
 
 ```dsl
 component Authentication [0.9, 0.1] inertia
-component Database [0.3, 0.6] evolve 0.8
+component Database [0.3, 0.6]
+evolve Database 0.8
 ```
 
 The number after `evolve` indicates the target maturity.
@@ -164,7 +165,8 @@ component Database [0.4, 0.7]
 
 pipeline Processing [0.5, 0.9]
 component Authentication [0.6, 0.6] inertia
-component Gateway [0.6, 0.8] evolve 0.9
+component Gateway [0.6, 0.8]
+evolve Gateway 0.9
 
 Customer->Website
 Website->Payment
